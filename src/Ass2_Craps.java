@@ -9,7 +9,7 @@ public class Ass2_Craps {
         int dieSum;
         String yn;
         boolean play = false;
-        boolean play2 = false;
+        boolean play2;
 
         System.out.println("Welcome to the Craps Simulator!");
         System.out.println("Rule 1: If the sum is 2, 3, or 12, it is called crapping out and the game is over with a loss.");
