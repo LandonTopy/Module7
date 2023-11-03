@@ -23,7 +23,7 @@ public class Ass2_Craps {
             dieTotal = die1 + die2;
             System.out.printf("\nRoll 1: %5d", die1);
             System.out.printf("\nRoll 2: %5d", die2);
-            if (dieTotal == 2 || dieTotal == 3 || dieTotal == 12) {
+            if (dieTotal == 7 || dieTotal == 11 ) {
                 System.out.printf("\nSum: %8d", dieTotal);
                 System.out.println("\nYou win!");
                 System.out.println("\nPlay Again? [Y/N]");
@@ -31,7 +31,7 @@ public class Ass2_Craps {
                 if (yn.equalsIgnoreCase("N")){
                     play = true;
                 }
-            } else if (dieTotal == 7 || dieTotal == 11){
+            } else if (dieTotal == 2 || dieTotal == 3 || dieTotal == 12){
                 System.out.printf("\nSum: %8d", dieTotal);
                 System.out.println("\nSorry, you crapped out.");
                 System.out.println("\nPlay Again? [Y/N]");
